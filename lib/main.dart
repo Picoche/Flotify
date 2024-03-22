@@ -1,11 +1,27 @@
 import 'package:flutter/material.dart';
 import 'package:projet_spotify_gorouter/router/router_config.dart';
+import 'package:provider/provider.dart';
 
+import 'providers/albums_provider.dart';
+import 'providers/artists_provider.dart';
+import 'providers/tracks_provider.dart';
+import 'providers/query_provider.dart';
 /// Exemple d'application avec double navigation
 ///  - une avec une bottom navigation bar (3 branches)
 ///  - une navigation entre les pages de chaque branche
 
-void main() => runApp(const MyApp());
+void main() {
+  runApp(
+    MultiProvider(
+      providers: [
+        ChangeNotifierProvider(create: (context) => AlbumsProvider()),
+        ChangeNotifierProvider(create: (context) => ArtistsProvider()),
+        ChangeNotifierProvider(create: (context) => TracksProvider()),
+        ChangeNotifierProvider(create: (context) => QueryProvider()),],
+      child: const MyApp(),
+    ),
+  );
+}
 
 /// The main app.
 class MyApp extends StatelessWidget {
