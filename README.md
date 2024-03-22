@@ -4,3 +4,4 @@ L'application ne fonctionnera pas à moins d'être build sous Windows. Vous pouv
 ![image](https://github.com/Picoche/Flotify/assets/98920168/6962db09-05e5-40ac-9303-020cae13bb09)
 
 Les chansons peuvent être jouées et mises en pause en cliquant sur le bandeau **uniquement sur la page "détails" d'une playlist**
+![image](https://github.com/Picoche/Flotify/assets/98920168/002b4cec-53c9-440a-9d77-d811c00f7ef1)
