@@ -1,17 +1,6 @@
-# projet_spotify_gorouter
+# Flotify
 
-A new Flutter project.
+L'application ne fonctionnera pas à moins d'être build sous Windows. Vous pouvez ajouter des chansons à vos playlists sous la page "Détails" d'un artiste en cliquant sur le menu "boules de viandes", après en avoir créé au moins une au préalable.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# flutter_projet_spotify_base
+![image](https://github.com/Picoche/Flotify/assets/98920168/6962db09-05e5-40ac-9303-020cae13bb09)
